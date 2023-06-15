@@ -1,0 +1,1434 @@
+.bg,
+.bg-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bg-icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bg {
+  background: linear-gradient(121.69deg, #160e33 41.51%, rgba(22, 14, 51, 0.3));
+}
+.bg1 {
+  background: linear-gradient(0deg, #160e33, rgba(22, 14, 51, 0));
+}
+.background,
+.bg1,
+.bg2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bg2 {
+  background-color: var(--purple);
+}
+.how-it-works {
+  position: relative;
+  text-transform: uppercase;
+}
+.nav-menu-items {
+  position: absolute;
+  height: 91%;
+  width: 42.43%;
+  top: 4%;
+  right: 28.4%;
+  bottom: 5%;
+  left: 29.17%;
+  display: flex;
+  flex-direction: row;
+  padding: 36px var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.emojioneflag-for-united-state-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sign-up-button {
+  height: 34%;
+  width: 5%;
+  top: 32%;
+  right: 11.46%;
+  bottom: 34%;
+  left: 83.54%;
+  border-radius: 20px;
+  border: 2px solid var(--red);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 8px var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.krypto,
+.navbar,
+.sign-up-button {
+  position: absolute;
+}
+.krypto {
+  top: 35%;
+  left: 11.46%;
+  font-size: var(--font-size-5xl);
+  color: var(--red);
+  text-align: center;
+}
+.navbar {
+  height: 12.5%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 87.5%;
+  left: 0;
+}
+.crypto-market-starts {
+  position: absolute;
+  width: 73.97%;
+  top: 40.04%;
+  left: 13.01%;
+  display: inline-block;
+}
+.bitcoin-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bitcoin {
+  position: absolute;
+  height: 100%;
+  width: 19.26%;
+  top: 0;
+  right: 80.74%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.litecoin-icon {
+  width: 24.24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.litecoin,
+.litecoin-icon {
+  position: relative;
+}
+.bitcoin2,
+.bitcoin3 {
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.bitcoin2 {
+  position: absolute;
+  width: 21.01%;
+  right: 54.06%;
+  bottom: 0;
+  left: 24.93%;
+}
+.bitcoin3 {
+  width: 23.09%;
+  right: 25.31%;
+  left: 51.61%;
+}
+.bitcoin3,
+.bitcoin4,
+.coins {
+  position: absolute;
+  bottom: 0;
+}
+.bitcoin4 {
+  height: 100%;
+  width: 19.64%;
+  top: 0;
+  right: 0;
+  left: 80.36%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.coins {
+  height: 4.43%;
+  width: 72.53%;
+  top: 95.57%;
+  right: 13.77%;
+  left: 13.7%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.next-generation-crypto,
+.we-accept {
+  position: absolute;
+  display: inline-block;
+}
+.we-accept {
+  width: 73.97%;
+  top: 86.72%;
+  left: 13.01%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.next-generation-crypto {
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-size: 80px;
+}
+.button-1,
+.button-2 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.button-1 {
+  position: absolute;
+  width: 46.68%;
+  right: 53.32%;
+  left: 0;
+  background-color: var(--red);
+}
+.button-2 {
+  width: 45.36%;
+  right: 0;
+  left: 54.64%;
+  background-color: var(--color-gray-100);
+  border: 2px solid var(--red);
+}
+.bg3,
+.button-2,
+.buttons {
+  position: absolute;
+}
+.buttons {
+  height: 10.15%;
+  width: 51.64%;
+  top: 69.19%;
+  right: 24.25%;
+  bottom: 20.66%;
+  left: 24.11%;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.bg3 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 64px;
+  background-color: var(--purple);
+  opacity: 0.5;
+}
+.days1,
+.div {
+  position: relative;
+}
+.div {
+  font-weight: 500;
+}
+.days1 {
+  font-size: var(--font-size-smi);
+  text-transform: uppercase;
+  color: var(--white);
+}
+.day,
+.days {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.days {
+  height: 100%;
+  width: 14.02%;
+  right: 85.98%;
+  bottom: 0;
+}
+.div1 {
+  top: 35.29%;
+  left: 17.71%;
+  font-size: var(--font-size-smi);
+  text-transform: uppercase;
+  color: var(--white);
+}
+.div1,
+.div3,
+.hours {
+  position: absolute;
+}
+.hours {
+  height: 100%;
+  width: 16.61%;
+  top: 0;
+  right: 60.52%;
+  bottom: 0;
+  left: 22.88%;
+}
+.div3 {
+  top: 35.29%;
+  left: 43.17%;
+  font-size: var(--font-size-smi);
+  text-transform: uppercase;
+  color: var(--white);
+}
+.minutes {
+  height: 100%;
+  width: 20.66%;
+  top: 0;
+  right: 31%;
+  bottom: 0;
+  left: 48.34%;
+}
+.div5,
+.minutes,
+.seconds {
+  position: absolute;
+}
+.div5 {
+  top: 35.29%;
+  left: 72.69%;
+  font-size: var(--font-size-smi);
+  text-transform: uppercase;
+  color: var(--white);
+}
+.seconds {
+  height: 100%;
+  width: 22.14%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 77.86%;
+}
+.counters,
+.mini-counter {
+  position: absolute;
+  height: 72.86%;
+  width: 77.43%;
+  top: 14.29%;
+  right: 11.43%;
+  bottom: 12.86%;
+  left: 11.14%;
+}
+.mini-counter {
+  height: 12.92%;
+  width: 47.95%;
+  top: 48.89%;
+  right: 26.03%;
+  bottom: 38.19%;
+  left: 26.03%;
+  font-size: var(--font-size-11xl);
+  color: var(--red);
+}
+.text {
+  position: absolute;
+  height: 67.75%;
+  width: 50.69%;
+  top: 18.63%;
+  right: 24.65%;
+  bottom: 13.63%;
+  left: 24.65%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.bg4,
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+}
+.hero {
+  height: 800px;
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.bg4 {
+  background-color: var(--purple);
+  height: 1000px;
+}
+.tincidunt-id-nibh {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 920px;
+  opacity: 0.6;
+}
+.components {
+  position: absolute;
+  top: 91px;
+  left: 260px;
+  width: 920px;
+  height: 124px;
+}
+.video-icon {
+  top: 0;
+  left: 0;
+  width: 540px;
+  height: 673px;
+}
+.bg5,
+.div8,
+.video-icon {
+  position: absolute;
+}
+.bg5 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--red);
+}
+.div8 {
+  top: 28.57%;
+  left: 28.57%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.div7 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+}
+.create-an-account {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--red);
+}
+.parent {
+  border-radius: var(--br-61xl);
+  background-color: var(--purple);
+  box-shadow: 0 0 4px rgba(239, 68, 59, 0.4);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.group,
+.parent,
+.step-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 284px;
+}
+.step-1 {
+  height: 66px;
+}
+.group {
+  border-radius: var(--br-61xl);
+  background-color: var(--purple);
+  box-shadow: var(--drop-shadow-1);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.step-11,
+.step-3,
+.step-4,
+.steps1 {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 285px;
+  height: 66px;
+}
+.step-3,
+.step-4,
+.steps1 {
+  top: 180px;
+}
+.step-4,
+.steps1 {
+  top: 270px;
+}
+.steps1 {
+  top: 83px;
+  height: 336px;
+}
+.steps-to-trade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  color: var(--red);
+  width: 449px;
+}
+.contents,
+.steps {
+  position: absolute;
+  top: 127px;
+  left: 661px;
+  width: 449px;
+  height: 419px;
+}
+.contents {
+  top: 295px;
+  left: 165px;
+  width: 1110px;
+  height: 673px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--purple);
+}
+.how-to-trade {
+  position: absolute;
+  top: 800px;
+  left: 0;
+  width: 1440px;
+  height: 1000px;
+}
+.available-creyptos,
+.bg9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg9 {
+  background-color: var(--purple);
+  width: 1440px;
+  height: 1100px;
+}
+.available-creyptos {
+  display: inline-block;
+  width: 920px;
+}
+.bg10,
+.bitcoin5 {
+  position: absolute;
+}
+.bg10 {
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-xs) var(--br-xs);
+  background-color: var(--white);
+  width: 350px;
+  height: 300px;
+}
+.bitcoin5 {
+  top: 8%;
+  left: 6.86%;
+  font-weight: 500;
+}
+.tincidunt-id-nibh2 {
+  position: absolute;
+  width: 85.71%;
+  top: 21.33%;
+  left: 6.86%;
+  font-size: var(--font-size-lg);
+  line-height: 150%;
+  display: inline-block;
+  opacity: 0.6;
+}
+.button {
+  position: absolute;
+  height: 18.33%;
+  width: 40.57%;
+  top: 75%;
+  right: 5.43%;
+  bottom: 6.67%;
+  left: 54%;
+  border-radius: var(--br-21xl);
+  background-color: var(--red);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--white);
+}
+.component {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 350px;
+  height: 300px;
+}
+.bg-icon1,
+.bg11 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs) var(--br-xs) 0 0;
+}
+.bg-icon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bg11 {
+  background-color: var(--red);
+  opacity: 0.7;
+  mix-blend-mode: overlay;
+}
+.bg11,
+.image,
+.k {
+  position: absolute;
+}
+.image {
+  height: 53.85%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 46.15%;
+  left: 0;
+}
+.k {
+  top: 581px;
+  left: 24px;
+  font-size: var(--font-size-17xl);
+  text-transform: uppercase;
+  color: var(--red);
+}
+.card-1,
+.card-2,
+.card-3,
+.sliders {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 650px;
+}
+.card-2,
+.card-3,
+.sliders {
+  left: 380px;
+}
+.card-3,
+.sliders {
+  left: 761px;
+}
+.sliders {
+  top: 295px;
+  left: 165px;
+  width: 1111px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--purple);
+}
+.arrows-icon {
+  position: absolute;
+  top: 555px;
+  left: 46px;
+  width: 1350px;
+  height: 65px;
+}
+.available-cryptos,
+.bg16 {
+  position: absolute;
+  top: 1800px;
+  left: 0;
+  width: 1440px;
+  height: 1100px;
+}
+.bg16 {
+  top: 0;
+  background-color: var(--purple);
+  height: 850px;
+}
+.components2,
+.icons {
+  position: absolute;
+  top: 89px;
+  left: 260px;
+  width: 920px;
+  height: 124px;
+}
+.icons {
+  height: 33.51%;
+  width: 18.57%;
+  top: 3.61%;
+  right: 81.43%;
+  bottom: 62.89%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.weekly-trading {
+  margin: 0;
+}
+.competition-jackpots {
+  position: absolute;
+  width: 72.86%;
+  top: 1.55%;
+  left: 27.14%;
+  font-weight: 500;
+  display: inline-block;
+}
+.eu-tellus-quam {
+  position: absolute;
+  width: 100%;
+  top: 51.03%;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  opacity: 0.6;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.items {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 194px;
+}
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.items {
+  top: 224px;
+}
+.item-2,
+.item-3,
+.item-5,
+.item-6,
+.items {
+  top: 0;
+  left: 380px;
+}
+.item-3,
+.item-5,
+.item-6,
+.items {
+  top: 224px;
+}
+.item-3,
+.item-6,
+.items {
+  top: 0;
+  left: 760px;
+}
+.item-6,
+.items {
+  top: 224px;
+}
+.items {
+  top: 293px;
+  left: 165px;
+  width: 1110px;
+  height: 418px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+}
+.bg-icon4,
+.features1 {
+  position: absolute;
+  top: 2900px;
+  left: 0;
+  width: 1440px;
+  height: 850px;
+}
+.bg-icon4 {
+  top: 0;
+  height: 600px;
+  object-fit: cover;
+}
+.most-advanced-crypto {
+  position: absolute;
+  top: 164px;
+  left: 165px;
+  display: inline-block;
+  width: 1110px;
+}
+.image-5-icon,
+.image-6-icon {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border-radius: var(--br-3xs);
+  width: 190px;
+  height: 65px;
+  object-fit: cover;
+}
+.image-6-icon {
+  left: 214px;
+  width: 190.3px;
+}
+.download {
+  position: absolute;
+  top: 374px;
+  left: 518px;
+  width: 402.3px;
+  height: 61px;
+}
+.bg17,
+.cta {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.cta {
+  top: 3750px;
+  height: 600px;
+  font-size: 72px;
+}
+.bg17 {
+  top: 0;
+  background-color: var(--purple);
+  height: 900px;
+}
+.arrows-icon1,
+.bg18 {
+  position: absolute;
+  top: 488px;
+  left: 65px;
+  width: 1310px;
+  height: 65px;
+}
+.bg18 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--purple);
+  border: 2px solid var(--red);
+  box-sizing: border-box;
+}
+.icoutline-format-quote-icon {
+  position: absolute;
+  height: 17.78%;
+  width: 22.86%;
+  top: 14.89%;
+  right: 39.14%;
+  bottom: 67.33%;
+  left: 38%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tincidunt-id-nibh6 {
+  position: absolute;
+  width: 79.14%;
+  top: 38%;
+  left: 10.57%;
+  line-height: 150%;
+  display: inline-block;
+  opacity: 0.6;
+}
+.cameron-williamson {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.fx-trader {
+  position: absolute;
+  top: 59.57%;
+  left: 34.22%;
+  font-size: var(--font-size-base);
+  color: var(--red);
+}
+.cameron-williamson-parent,
+.profile-child {
+  position: absolute;
+  height: 43.93%;
+  width: 100%;
+  top: 56.07%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.profile-child {
+  height: 44.86%;
+  width: 21.33%;
+  top: 0;
+  right: 39.56%;
+  bottom: 55.14%;
+  left: 39.11%;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.profile {
+  position: absolute;
+  height: 23.78%;
+  width: 64.29%;
+  top: 61.33%;
+  right: 18.57%;
+  bottom: 14.89%;
+  left: 17.14%;
+  font-size: var(--font-size-xl);
+}
+.bg19,
+.card-11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 450px;
+}
+.bg19 {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--purple);
+  box-shadow: var(--drop-shadow-1);
+  border: 2px solid var(--red);
+  box-sizing: border-box;
+}
+.fx-trader1 {
+  position: absolute;
+  top: 59.57%;
+  left: 25.33%;
+  font-size: var(--font-size-base);
+  color: var(--red);
+}
+.card-21,
+.card-31,
+.cards {
+  position: absolute;
+  top: 0;
+  left: 380px;
+  width: 350px;
+  height: 450px;
+}
+.card-31,
+.cards {
+  left: 760px;
+}
+.cards {
+  top: 295px;
+  left: 165px;
+  width: 1110px;
+  font-size: var(--font-size-lg);
+}
+.bg21,
+.portfolio {
+  position: absolute;
+  top: 4350px;
+  left: 0;
+  width: 1440px;
+  height: 900px;
+}
+.bg21 {
+  top: 0;
+  background-color: var(--purple);
+  height: 800px;
+}
+.components4 {
+  position: absolute;
+  top: 91px;
+  left: 260px;
+  width: 920px;
+  height: 124px;
+  text-align: center;
+}
+.bg-icon5,
+.how-to-trade2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg-icon5 {
+  height: 100%;
+  width: 29.63%;
+  right: 70.37%;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.how-to-trade2 {
+  width: 100%;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  display: inline-block;
+}
+.eu-tellus-quam-container,
+.learn-more {
+  position: absolute;
+  left: 0;
+  line-height: 150%;
+}
+.eu-tellus-quam-container {
+  width: 100%;
+  top: 25%;
+  display: inline-block;
+  opacity: 0.6;
+}
+.learn-more {
+  top: 83.13%;
+  color: var(--red);
+}
+.div15 {
+  position: absolute;
+  height: 100%;
+  width: 64.81%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 35.19%;
+}
+.card-12,
+.card-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 540px;
+  height: 160px;
+}
+.card-5 {
+  top: 190px;
+}
+.card-22,
+.card-6 {
+  left: 570px;
+  width: 540px;
+  height: 160px;
+}
+.card-22 {
+  position: absolute;
+  top: 0;
+}
+.card-6 {
+  top: 190px;
+}
+.card-6,
+.cards1,
+.enroll {
+  position: absolute;
+}
+.cards1 {
+  top: 295px;
+  left: 165px;
+  width: 1110px;
+  height: 350px;
+  font-size: var(--font-size-lg);
+}
+.enroll {
+  top: 691px;
+  left: 580px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-100);
+  border: 2px solid var(--red);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+}
+.bg22,
+.university1 {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+.university1 {
+  top: 5250px;
+  height: 800px;
+  text-align: left;
+}
+.bg22 {
+  top: 0;
+  background-color: var(--purple);
+  height: 530px;
+}
+.massa-blandit-semper {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  width: 255px;
+  height: 167px;
+}
+.logo {
+  top: 0;
+  width: 255px;
+  height: 232px;
+  text-align: center;
+}
+.blogs,
+.links1,
+.logo {
+  position: absolute;
+  left: 0;
+}
+.links1 {
+  top: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.blogs {
+  top: 148px;
+}
+.items1,
+.links {
+  position: absolute;
+  width: 107px;
+}
+.items1 {
+  top: 63px;
+  left: 0;
+  height: 169px;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.links {
+  top: 0;
+  left: 284px;
+  height: 232px;
+}
+.terms-of-conditions,
+.terms-of-use {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.terms-of-conditions {
+  top: 37px;
+}
+.cookie-policy,
+.privecy-policy {
+  position: absolute;
+  top: 74px;
+  left: 0;
+}
+.cookie-policy {
+  top: 111px;
+}
+.items2,
+.legal {
+  position: absolute;
+  width: 165px;
+}
+.items2 {
+  top: 63px;
+  left: 0;
+  height: 132px;
+  font-size: var(--font-size-lg);
+  color: var(--white);
+}
+.legal {
+  top: 1px;
+  left: 478px;
+  height: 195px;
+}
+.bg23,
+.we-dont-sell {
+  position: absolute;
+  left: 0;
+}
+.we-dont-sell {
+  top: 124px;
+  opacity: 0.6;
+}
+.bg23 {
+  top: 0;
+  border-radius: 49px;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 349px;
+  height: 62px;
+}
+.enter-your-email {
+  position: absolute;
+  top: 17px;
+  left: 23px;
+}
+.subscribe {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.button3 {
+  position: absolute;
+  top: 10px;
+  left: 236px;
+  border-radius: var(--br-21xl);
+  background-color: var(--red);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}
+.input-field {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 349px;
+  height: 62px;
+  font-size: var(--font-size-lg);
+  color: var(--ash);
+  font-family: var(--font-hind-siliguri);
+}
+.over-25000-people {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  opacity: 0.6;
+}
+.items3,
+.newsletter {
+  position: absolute;
+  width: 349px;
+}
+.items3 {
+  top: 63px;
+  left: 0;
+  height: 141px;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+}
+.newsletter {
+  top: 1px;
+  left: 760px;
+  height: 204px;
+}
+.footer-top,
+.line {
+  position: absolute;
+  top: 80px;
+  left: 165px;
+  width: 1109px;
+  height: 232px;
+}
+.line {
+  top: 396.5px;
+  left: 164.5px;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  width: 1110px;
+  height: 1px;
+  opacity: 0.2;
+}
+.contact-us {
+  position: absolute;
+  top: 0;
+  left: 119px;
+}
+.privecy-and-contact-us {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 192px;
+  height: 17px;
+}
+.copyright-2022,
+.social-icons {
+  position: absolute;
+  top: 1px;
+  left: 461px;
+}
+.social-icons {
+  left: 1013px;
+  width: 102px;
+  height: 18px;
+}
+.footer,
+.footer-bottom {
+  position: absolute;
+  top: 417px;
+  left: 162px;
+  width: 1115px;
+  height: 19px;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+}
+.footer {
+  top: 6050px;
+  left: 0;
+  width: 1440px;
+  height: 530px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--red);
+}
+.etherium-2-icon,
+.etherium-2-icon1,
+.monero-1-icon,
+.monero-1-icon1 {
+  position: absolute;
+  top: 480px;
+  left: 24px;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.etherium-2-icon1,
+.monero-1-icon,
+.monero-1-icon1 {
+  top: 1480px;
+  left: 1177px;
+}
+.monero-1-icon,
+.monero-1-icon1 {
+  top: 420px;
+  left: 1229px;
+  width: 63px;
+  height: 63px;
+}
+.monero-1-icon1 {
+  top: 1689px;
+  left: 41px;
+}
+.bitcoin-1-icon,
+.bitcoin-1-icon1,
+.litecoin-3-icon {
+  position: absolute;
+  top: 0;
+  left: 119px;
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+.bitcoin-1-icon1,
+.litecoin-3-icon {
+  top: 2787px;
+  left: 1211px;
+}
+.litecoin-3-icon {
+  top: 2580px;
+  left: 0;
+  width: 160px;
+  height: 160px;
+}
+.bitcoin-1-icon2,
+.etherium-2-icon2 {
+  position: absolute;
+  top: 4962px;
+  left: 24px;
+  width: 95px;
+  height: 95px;
+  object-fit: cover;
+}
+.etherium-2-icon2 {
+  top: 4941px;
+  left: 1234px;
+  width: 160px;
+  height: 160px;
+}
+.litecoin-2-icon,
+.monero-1-icon2,
+.monero-1-icon3 {
+  position: absolute;
+  top: 5720px;
+  left: 1184px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.litecoin-2-icon,
+.monero-1-icon3 {
+  top: 4138px;
+  left: 48px;
+  width: 63px;
+  height: 63px;
+}
+.litecoin-2-icon {
+  top: 22px;
+  left: 1164px;
+  width: 140px;
+  height: 140px;
+}
+.coins1 {
+  position: absolute;
+  top: 240px;
+  left: 46px;
+  width: 1394px;
+  height: 5810px;
+}
+.landing-page-04 {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 6580px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--white);
+  font-family: var(--font-rubik);
+}

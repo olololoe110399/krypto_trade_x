@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --font-hind-siliguri: "Hind Siliguri";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+  --font-size-base: 16px;
+  --font-size-45xl: 64px;
+  --font-size-11xl: 30px;
+  --font-size-17xl: 36px;
+  --font-size-smi: 13px;
+
+  /* Colors */
+  --white: #fff;
+  --red: #ef443b;
+  --ash: #e0e0e0;
+  --purple: #160e33;
+  --color-gray-100: rgba(22, 14, 51, 0.5);
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-lg: 18px;
+  --padding-5xl: 24px;
+
+  /* border radiuses */
+  --br-21xl: 40px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-61xl: 80px;
+
+  /* Effects */
+  --drop-shadow-1: 0px 0px 40px rgba(239, 68, 59, 0.4);
+}

@@ -1,0 +1,21 @@
+{
+  "name": "krypto_trade_x",
+  "version": "1.0.0",
+  "description": "KryptoTradeX là một dự án giao dịch tiền mã hóa, mang đến một nền tảng an toàn và thuận tiện để mua bán các loại tiền điện tử.",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "trading",
+    "exchange",
+    "KryptoTradeX"
+  ],
+  "author": "Duynn",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
