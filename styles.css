@@ -341,6 +341,13 @@
   bottom: 0;
   left: 77.86%;
 }
+.counters {
+    /* display: flex; */
+  display: none;
+}
+.loading{
+  width: 26%
+}
 .counters,
 .mini-counter {
   position: absolute;
@@ -1432,3 +1439,4 @@
   color: var(--white);
   font-family: var(--font-rubik);
 }
+

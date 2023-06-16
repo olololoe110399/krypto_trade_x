@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <title>KryptoTradeX</title>
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./styles.css" />
@@ -94,31 +94,37 @@
           </div>
           <div class="mini-counter">
             <div class="bg3"></div>
-            <div class="counters">
+            <img
+              src="./public/spinner.gif"
+              alt="Loading..."
+              id="loading"
+              class="loading"
+            />
+            <div id="countdown" class="counters">
               <div class="days">
                 <div class="day">
-                  <div class="div">02</div>
+                  <div id="days" class="div">02</div>
                   <div class="days1">Days</div>
                 </div>
               </div>
               <div class="div1">:</div>
               <div class="hours">
                 <div class="day">
-                  <div class="div">12</div>
+                  <div id="hours" class="div">12</div>
                   <div class="days1">Hours</div>
                 </div>
               </div>
               <div class="div3">:</div>
               <div class="minutes">
                 <div class="day">
-                  <div class="div">23</div>
+                  <div id="minutes" class="div">23</div>
                   <div class="days1">Minutes</div>
                 </div>
               </div>
               <div class="div5">:</div>
               <div class="seconds">
                 <div class="day">
-                  <div class="div">35</div>
+                  <div id="seconds" class="div">35</div>
                   <div class="days1">Seconds</div>
                 </div>
               </div>
