@@ -28,7 +28,22 @@ const showHidePassword = () => {
 };
 
 const handleSubmitForm = (data) => {
-  console.log(data);
+  const API = new FetchWrapper(
+    "https://6491c6322f2c7ee6c2c8e184.mockapi.io/api/v1/"
+  );
+  API.get("users").then((users) => {
+    const authenticatedUser = users.find(function (user) {
+      return user.email === data["email"] && user.password === data["password"];
+    });
+    if (authenticatedUser) {
+      navigation.navigate("/");
+    } else {
+      const errorMessage = document.querySelector(".error-message-form");
+      if (errorMessage) {
+        errorMessage.innerText = "Sai tên đăng nhập hoặc mật khẩu";
+      }
+    }
+  });
 };
 
 window.onload = () => {

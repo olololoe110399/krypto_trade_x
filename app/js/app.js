@@ -30,13 +30,11 @@ function updateCountdown() {
   seconds.innerHTML = s < 10 ? "0" + s : s;
 }
 
-window.addEventListener("DOMContentLoaded", function () {
-});
 // =================================================================================================================
 // =================================================================================================================
 // =================================================================================================================
 // HANDLE API CONTENT PROTFILIO 
-const renderContentPortfolio = async () => {
+const renderContentPortfolio = async (API) => {
   try {
     const portfolioCardContainer = document.getElementById("portfolio-card");
     const renderPortfolioCart = (
@@ -67,11 +65,7 @@ const renderContentPortfolio = async () => {
               />
             </div>
           </div>`;
-
-    const response = await fetch(
-      "https://648b2fd517f1536d65ea8e47.mockapi.io/api/v1/comments"
-    );
-    const jsonData = await response.json();
+    const jsonData = await API.get("comments");
 
     // get 3 item first
     const listCart = jsonData?.slice(0, 3)?.map((ele, index) => {
@@ -92,7 +86,7 @@ const renderContentPortfolio = async () => {
 // =================================================================================================================
 // =================================================================================================================
 // HANDLE API AVAILABLE CRYPTOS 
-const renderAvailableCryptos = async () => {
+const renderAvailableCryptos = async (API) => {
   try {
     const availableCryptosSlider = document.getElementById(
       "available-cryptos-slider"
@@ -116,11 +110,7 @@ const renderAvailableCryptos = async () => {
     </div>
     <b class="k">${price}</b>
   </div>`;
-      const availableCryptosRes = await fetch(
-        "https://6491c6322f2c7ee6c2c8e184.mockapi.io/api/v1/available_cryptos"
-      );
-    const availableCryptosData = await availableCryptosRes.json();
-
+    const availableCryptosData = await API.get("available_cryptos");
     // get 3 item first
     const listCart = availableCryptosData?.map((ele, index) => {
       return renderAvailableCryptosCard(
@@ -149,7 +139,10 @@ const renderAvailableCryptos = async () => {
 // =================================================================================================================
 // HANDLE API AVAILABLE CRYPTOS 
 window.onload = () => {
-  Promise.all([renderContentPortfolio(), renderAvailableCryptos()]);
+  const API = new FetchWrapper(
+    "https://648b2fd517f1536d65ea8e47.mockapi.io/api/v1/"
+  );
+  Promise.all([renderContentPortfolio(API), renderAvailableCryptos(API)]);
   setInterval(updateCountdown, 1000);
   // Show spinner before countdown
   setTimeout(() => {

@@ -28,7 +28,24 @@ const showHidePassword = (toggleField, passwordField) => {
 };
 
 const handleSubmitForm = (data) => {
-  console.log(data);
+  const API = new FetchWrapper(
+    "https://6491c6322f2c7ee6c2c8e184.mockapi.io/api/v1/"
+  );
+  data["avatar"] = "http://www.gravatar.com/avatar/?d=identicon";
+  delete data["password_confirmation"];
+  API.get("users").then((users) => {
+    const user = users.find(function (user) {
+      return user.email === data["email"];
+    });
+    if (user) {
+      const errorMessage = document.querySelector(".error-message-form");
+      if (errorMessage) {
+        errorMessage.innerText = "User đã tồn tại";
+      }
+    } else {
+      API.post("users", data).then((_) => navigation.navigate("/"));
+    }
+  });
 };
 
 window.onload = () => {
